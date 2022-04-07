@@ -1,0 +1,98 @@
+*{
+margin: 0 auto;
+padding: 0 ;
+
+}
+
+body{
+    background-color: rgb(219, 221, 226);
+}
+
+
+.container{
+max-width: 1000px;
+background-color: rgb(163, 255, 255);
+margin: 0 auto;
+
+    
+}
+main{
+    margin: 20px;
+}
+
+.imageprofile{
+border-radius: 50%;
+padding: 5px;
+display: inline-block;
+float: left;
+}
+.profilename{
+padding: 11px;
+display: inline-block;
+margin-bottom: 22px;
+float: left;
+}
+.contact{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+
+    
+   
+}
+.contact a{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+}
+.contact :hover{
+    color: blue;
+}
+.contact::after{
+    color: tomato;
+}
+
+
+hr{
+    border: 2px solid rgb(112, 108, 108);
+    width: 947px;
+    margin-left: 24px;
+    margin-right: 9px;  
+}
+.div_clear{
+    clear:both
+}
+
+.left-div{
+float: left;
+display: inline-block;
+width: 30%;
+}
+.right-div{
+float: right;
+display: inline-block;
+width: 70%;
+}
+
+.hrg{
+    border-color: rgb(75, 75, 75);
+    padding: 4px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    color: azure;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 59px;
+    margin-left: 79px;
+}
